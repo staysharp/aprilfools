@@ -15,8 +15,8 @@ describe(SortService.name, () => {
     // currently this data is seeded in the correct order for the test to pass.
     // re-order this seed data to see the test fail...
     thingsToSort = [
-      water,
       quartz,
+      water,
       steel];
   });
 
