@@ -10,7 +10,7 @@ export class CustomerService<T> {
   ): string[] {
     // return a list of customer names and cities
     // with more than minimumNumberOfEmployees.
-    return ['customerA, Chicago', 'customerB, Dallas', 'customerC, Misk'];
+    return ['customerA, Chicago', 'customerB, Dallas', 'customerC, Minsk'];
   }
 
   constructor() {}
