@@ -9,5 +9,5 @@ export class SortService<T> {
     return thingsToSort;
   }
 
-  constructor() { }
+  constructor() {}
 }

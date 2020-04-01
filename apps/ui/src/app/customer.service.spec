@@ -40,11 +40,11 @@ describe(CustomerService.name, () => {
   });
 
   describe(CustomerService.prototype.filterByEmployees.name, () => {
-    it('should return the correct result', () => {
+    it('should return the correct results', () => {
       expect(service.filterByEmployees(customerLocations, 1500)).toEqual([
         'customerA, Chicago',
         'customerB, Dallas',
-        'customerC, Misk',
+        'customerC, Misk'
       ]);
     });
   });
