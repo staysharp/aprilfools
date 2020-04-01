@@ -41,7 +41,7 @@ describe(CustomerService.name, () => {
       expect(service.filterByEmployees(customerLocations, 1500)).toEqual([
         'customerA, Chicago',
         'customerB, Dallas',
-        'customerC, Misk'
+        'customerC, Minsk'
       ]);
     });
   });
