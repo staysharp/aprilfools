@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class CustomerService<T> {
   filterByEmployees(
-    customerLocations: T[],
+    customerLocations: T,
     minimumNumberOfEmployees: number
   ): string[] {
     // return a list of customer names and cities
