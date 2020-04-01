@@ -14,10 +14,7 @@ describe(SortService.name, () => {
   beforeEach(() => {
     // currently this data is seeded in the correct order for the test to pass.
     // re-order this seed data to see the test fail...
-    thingsToSort = [
-      water,
-      quartz,
-      steel];
+    thingsToSort = [water, quartz, steel];
   });
 
   beforeEach(() => {
@@ -27,7 +24,11 @@ describe(SortService.name, () => {
 
   describe(SortService.prototype.sortByDensity.name, () => {
     it('should return the correct result', () => {
-      expect(service.sortByDensity(thingsToSort)).toEqual([water, quartz, steel])
+      expect(service.sortByDensity(thingsToSort)).toEqual([
+        water,
+        quartz,
+        steel
+      ]);
     });
   });
 });
